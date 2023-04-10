@@ -1,0 +1,11 @@
+import "scl.h"
+implementations
+function main return type integer is
+variables
+    define x of type double
+begin
+    display "Welcome to the world of SCL"
+    set x = 45.95
+    display "Value of x: ", x
+    exit
+endfun main
